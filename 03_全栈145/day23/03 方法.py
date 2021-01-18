@@ -20,5 +20,5 @@ class Foo:
 
 obj = Foo("刘佳琪")
 obj.func()
-# obj.display()
-Foo.display()
+obj.display()
+# Foo.display()
