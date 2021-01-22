@@ -12,23 +12,23 @@ import json
 # print(res, type(res))
 
 '''# 问题1   会把数字转换成字符串'''
-dic = {1: '2', 3: '4'}
-ret = json.dumps(dic)
-print(dic, type(dic))
-print(ret, type(ret))
-
-res = json.loads(ret)
-print(res, type(res))
-
-
-'''# 问题2  列表没变，元组变了列表'''
-# dic = {1: [1, 2, 3], 2: (4, 5, 'aa')}
+# dic = {1: '2', 3: '4'}
 # ret = json.dumps(dic)
 # print(dic, type(dic))
 # print(ret, type(ret))
 #
 # res = json.loads(ret)
 # print(res, type(res))
+
+
+'''# 问题2  列表没变，元组变了列表'''
+dic = {1: [1, 2, 3], 2: (4, 5, 'aa')}
+ret = json.dumps(dic)
+print(dic, type(dic))
+print(ret, type(ret))
+
+res = json.loads(ret)
+print(res, type(res))
 
 
 '''# 问题3'''
