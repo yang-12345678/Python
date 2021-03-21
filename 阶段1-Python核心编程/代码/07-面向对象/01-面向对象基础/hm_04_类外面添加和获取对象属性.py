@@ -5,6 +5,7 @@ class Washer():
 
 haier1 = Washer()
 
+# 在类的外面添加属性并赋值
 # 添加属性  对象名.属性名 = 值
 haier1.width = 400
 haier1.height = 500
