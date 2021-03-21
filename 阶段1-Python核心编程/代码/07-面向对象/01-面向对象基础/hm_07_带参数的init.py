@@ -14,4 +14,3 @@ haier1.print_info()
 
 haier2 = Washer(100, 200)
 haier2.print_info()
-
