@@ -24,3 +24,4 @@ print(daqiu.kongfu)
 daqiu.make_cake()
 
 print(Prentice.__mro__)
+# (<class '__main__.Prentice'>, <class '__main__.Master'>, <class 'object'>)
