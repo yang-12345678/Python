@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+# Date: 2021/01/23
+
+import turtle as t
+
+t.setup(1000, 800)
+t.speed(10)
+t.pu()
+t.goto(0, -300)
+t.pd()
+t.color('red', 'red')
+t.begin_fill()
+t.circle(300, 360)
+t.end_fill()
+t.goto(0, -250)
+t.color('white', 'white')
+t.begin_fill()
+t.circle(250)
+t.end_fill()
+t.goto(0, -200)
+t.color('red', 'red')
+t.begin_fill()
+t.circle(200)
+t.end_fill()
+t.goto(0, -150)
+t.color('blue', 'blue')
+t.begin_fill()
+t.circle(150)
+t.end_fill()
+t.goto(0, 150)
+t.right(72)
+t.color('white', 'white')
+t.begin_fill()
+for i in range(5):
+    t.fd(285)
+    t.right(144)
+t.end_fill()
+t.done()
